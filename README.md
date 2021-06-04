@@ -9,3 +9,5 @@ This project is the child project of the product Air Master.It's a background ma
 Is it complete?
 ========
 No,this just is a demo application.Even you can think it's just my classwork. :(
+
+(And this is depending on Debug mode --)
