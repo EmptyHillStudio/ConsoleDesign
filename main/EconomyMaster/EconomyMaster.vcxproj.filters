@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{17132ffe-b886-412a-8608-6e013401f4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Managers\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Province&amp;Cities">
+      <UniqueIdentifier>{a72206ec-d322-41bb-a0e6-1905543d9112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Province&amp;Cities\头文件">
+      <UniqueIdentifier>{0a970579-a534-49b6-bdf7-3e04f716b394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Province&amp;Cities\源文件">
+      <UniqueIdentifier>{3ce09d5a-0939-403d-89fe-26ced12f4ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主源文件">
+      <UniqueIdentifier>{66bc2181-05ba-4cea-9b29-8a66b1b62a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主头文件">
+      <UniqueIdentifier>{10173526-284d-4314-b7c0-dd9bc5082e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{b3c8b524-7d39-4338-b963-7ae13bdaa742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\源文件">
+      <UniqueIdentifier>{3549e94c-a37d-46ba-9bad-11444c2471fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\头文件">
+      <UniqueIdentifier>{288a6d6d-ac45-4670-a9bc-d9d0b3ac05aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Product">
+      <UniqueIdentifier>{482ab4fe-8301-497a-aa1d-255bd8361e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{0a5b480d-4771-43bd-80d3-903a00d0b3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated">
+      <UniqueIdentifier>{bd2c37d9-a1df-42f8-bedd-820db5cdb213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated\AirPlane">
+      <UniqueIdentifier>{8cf81e10-0c04-4bb4-bb48-fa61a7d6dc40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated\AirLine">
+      <UniqueIdentifier>{086191ac-9702-418e-b072-af9d83cdaf08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated\AirLine\头文件">
+      <UniqueIdentifier>{5123423e-21d6-4187-8073-70e2ef365700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated\AirLine\源文件">
+      <UniqueIdentifier>{b8fe4f1c-9ebf-4dd2-8dff-7484a4e65c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Research">
+      <UniqueIdentifier>{7c6778ac-18e1-43d7-a10f-46ad5f842fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Research\头文件">
+      <UniqueIdentifier>{f6138b1f-ef45-4f0b-9508-6cd36adb05e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Research\源文件">
+      <UniqueIdentifier>{1bcaba48-46f4-4bfb-9c2b-483a12c7cb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated\AirPlane\头文件">
+      <UniqueIdentifier>{984d8a5a-54c7-45d8-b20f-a4ce6a7d9bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AirRelated\AirPlane\源文件">
+      <UniqueIdentifier>{bd1f6e68-2317-4f51-a332-eae4b561c1ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameProcessManager.h">
+      <Filter>Managers\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EconomyManager.h">
+      <Filter>Managers\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>API\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoiseCreater.h">
+      <Filter>API\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvReader.h">
+      <Filter>API\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProvinceManager.h">
+      <Filter>Managers\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="City.h">
+      <Filter>Province&amp;Cities\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Province.h">
+      <Filter>Province&amp;Cities\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Airline.h">
+      <Filter>AirRelated\AirLine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AirPlaneManager.h">
+      <Filter>Managers\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AirlineManager.h">
+      <Filter>Managers\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Research.h">
+      <Filter>Research\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineState.h">
+      <Filter>AirRelated\AirLine\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AirPlane.h">
+      <Filter>AirRelated\AirPlane\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AirPlaneMakeCompany.h">
+      <Filter>AirRelated\AirPlane\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResearchManager.h">
+      <Filter>Managers\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TecnologyResearch.h">
+      <Filter>Research\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomAirplane.h">
+      <Filter>AirRelated\AirPlane\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>主头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>API\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EconomyMaster.cpp">
+      <Filter>主源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcessManager.cpp">
+      <Filter>Managers\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EconomyManager.cpp">
+      <Filter>Managers\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>API\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoiseCreater.cpp">
+      <Filter>API\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvReader.cpp">
+      <Filter>API\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProvinceManager.cpp">
+      <Filter>Managers\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="City.cpp">
+      <Filter>Province&amp;Cities\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Province.cpp">
+      <Filter>Province&amp;Cities\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Airline.cpp">
+      <Filter>AirRelated\AirLine\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirPlaneManager.cpp">
+      <Filter>Managers\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirlineManager.cpp">
+      <Filter>Managers\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Research.cpp">
+      <Filter>Research\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirPlane.cpp">
+      <Filter>AirRelated\AirPlane\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirPlaneMakeCompany.cpp">
+      <Filter>AirRelated\AirPlane\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeControlor.cpp">
+      <Filter>API\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResearchManager.cpp">
+      <Filter>Managers\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TecnologyResearch.cpp">
+      <Filter>Research\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomAirplane.cpp">
+      <Filter>AirRelated\AirPlane\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>主源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>API\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Default.properties">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Cities.properties">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

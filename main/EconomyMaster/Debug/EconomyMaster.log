@@ -1,0 +1,7 @@
+﻿  Date.cpp
+  GameProcessManager.cpp
+C:\Users\HP\source\repos\EconomyMaster\EconomyMaster\Properties.h(13,1): warning C4005: “IS_ERROR”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\winerror.h(28801): message : 参见“IS_ERROR”的前一个定义
+  正在生成代码...
+C:\Users\HP\source\repos\EconomyMaster\EconomyMaster\Date.cpp(63): warning C4715: “Date::isLegial”: 不是所有的控件路径都返回值
+  EconomyMaster.vcxproj -> C:\Users\HP\source\repos\EconomyMaster\Debug\EconomyMaster.exe
